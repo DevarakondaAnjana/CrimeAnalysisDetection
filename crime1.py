@@ -216,27 +216,27 @@ lg.place(x=700,y=300)
 lg.config(font=font1) 
 """
 knn= Button(main, text="KNN Classifier", command=test.knn)
-knn.place(x=700,y=350)
+knn.place(x=500,y=250)
 knn.config(font=font1) 
 
 """
 
 nb = Button(main, text="NB Classifier", command=test.nb)
-nb.place(x=700,y=350)
+nb.place(x=500,y=250)
 nb.config(font=font1)
 
 dt = Button(main, text="DT Classifier", command=test.dt)
-dt.place(x=700,y=400)
+dt.place(x=500,y=250)
 dt.config(font=font1)
 
 rf = Button(main, text="RF Classifier", command=test.rf)
-rf.place(x=700,y=450)
+rf.place(x=500,y=250)
 rf.config(font=font1)
 
 
 
 graph= Button(main, text="Model Comparison", command=test.graph)
-graph.place(x=700,y=550)
+graph.place(x=500,y=250)
 graph.config(font=font1)
 
 font1 = ('times', 12, 'bold')
